@@ -23,6 +23,8 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,6 +50,8 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.178",
-    "@types/react-geocode": "^0.2.0"
-  }
+    "@types/react-geocode": "^0.2.0",
+    "mini-css-extract-plugin": "2.4.5"
+  },
+  "homepage": "https://Jos9Hua.github.io/OpenWeather"
 }
